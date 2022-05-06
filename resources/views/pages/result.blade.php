@@ -17,7 +17,7 @@
                 <a href="/storage/{{ $pathOpt }}" class="btn btn-primary" download>Download</a>
             </div>
             <div class="col-2">
-                <a href="/" class="btn btn-outline-secondary">Back</a>
+                <a href="{{ url('/') }}" class="btn btn-outline-secondary">Back</a>
             </div>
         </div>
 
